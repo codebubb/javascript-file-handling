@@ -1,0 +1,22 @@
+{
+  "name": "javascript-file-handling",
+  "version": "1.0.0",
+  "description": "Examples of file handling on the client side",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebubb/javascript-file-handling.git"
+  },
+  "author": "James Bubb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codebubb/javascript-file-handling/issues"
+  },
+  "homepage": "https://github.com/codebubb/javascript-file-handling#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
