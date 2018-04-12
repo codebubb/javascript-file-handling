@@ -17,19 +17,46 @@
         <div class="jumbotron">
             <h1>JavaScript File Handling Examples</h1>
         </div>
+        <!-- 01. Select a single file -->
         <div class="card">
             <div class="card-body">
             <h2 class="card-title">01. Select a single file</h2>    
-                <form>
-                    <div class="form-group">
-                        <label for="fileselect1">Select a File</label>
-                        <input type="file" id="fileselect1" name="fileselect1">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="fileselect1">Select a File</label>
+                                <input type="file" id="fileselect1" name="fileselect1">
+                            </div>
+                        </form>
                     </div>
-                </form>
+                    <div class="com-sm-6">
+                        <ul id="result1" class="list-group list-group-flush"></ul>
+                    </div>
+                </div>
             </div>
         </div>
-
+        <!-- 02. Select Multiple Files -->
+        <div class="card">
+            <div class="card-body">
+            <h2 class="card-title">02. Select multiple files</h2>    
+                <div class="row">
+                    <div class="col-sm-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="fileselect2">Select Files</label>
+                                <input type="file" id="fileselect2" name="fileselect2" multiple>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="com-sm-6">
+                        <ul id="result2" class="list-group list-group-flush"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="lib/FileHandler.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
